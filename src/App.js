@@ -1,13 +1,13 @@
-
-import './App.css';
-import {MainPage} from "./pages/MainPage";
+import React from "react";
+import { UserForm } from "./components/UserForm";
 
 function App() {
-  return (
-    <div className="App">
-<MainPage/>
-    </div>
-  );
+    return (
+        <div>
+
+            <UserForm />
+        </div>
+    );
 }
 
 export default App;
